@@ -5,6 +5,7 @@ import './styles/theme.css';
 import './styles/global.css';
 import { Menu } from './components/Menu';
 import { CountDown } from './components/CountDown';
+import { DefaultInput } from './components/DefaultInput';
 
 export function App() {
   return (
@@ -19,6 +20,32 @@ export function App() {
 
       <Container>
         <CountDown />
+      </Container>
+
+      <Container>
+        <form className='form' action=''>
+          <div className='formRow'>
+            <DefaultInput
+              labelText='TASK'
+              id='meuInput'
+              type='text'
+              title='Digite sua nova task'
+            />
+          </div>
+
+          <div className='formRow'>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+
+          <div className='formRow'>
+            <p>Ciclso</p>
+            <p> 0 00 0 0 0 0 0 </p>
+          </div>
+
+          <div className='formRow'>
+            <button>ENVIAR</button>
+          </div>
+        </form>
       </Container>
     </>
   );

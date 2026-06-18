@@ -26,4 +26,18 @@ body {
   color: var(--text-default);
 }
 
+.form {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
 
+.formRow {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
