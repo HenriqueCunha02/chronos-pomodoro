@@ -30,6 +30,7 @@ export function App() {
               id='meuInput'
               type='text'
               title='Digite sua nova task'
+              placeholder='Digite...'
             />
           </div>
 
