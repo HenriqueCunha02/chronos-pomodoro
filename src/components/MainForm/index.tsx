@@ -63,6 +63,7 @@ export function MainForm() {
           title='Digite sua nova task'
           placeholder='Digite...'
           ref={taskNameInput}
+          disabled={!!state.activeTask}
         />
       </div>
 
